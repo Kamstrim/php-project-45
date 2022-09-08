@@ -4,7 +4,8 @@ namespace Php\Project_45\Games\NOD;
 
 use function Php\Project_45\Engine\game;
 
-function nod($num1, $num2){
+function nod($num1, $num2)
+{
     $minNum = ($num1 <= $num2) ? $num1 : $num2;
     while ((($num1 % $minNum) != 0) || (($num2 % $minNum) != 0)) {
         $minNum--;
