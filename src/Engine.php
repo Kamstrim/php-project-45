@@ -5,7 +5,7 @@ namespace Php\Project_45\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function game($gameInstruction, $questions, $correctAnswers)
+function game(string $gameInstruction, array $questions, array $correctAnswers)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');

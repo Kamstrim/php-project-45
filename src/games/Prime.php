@@ -4,7 +4,7 @@ namespace Php\Project_45\Games\Prime;
 
 use function Php\Project_45\Engine\game;
 
-function isPrime($num)
+function isPrime(int $num)
 {
     if ($num < 2) {
         return false;
