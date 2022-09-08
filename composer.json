@@ -1,7 +1,7 @@
 {
     "name": "hexlet/code",
     "bin": ["bin/brain-games", "bin/brain-even", "bin/brain-calc", "bin/brain-gcd","bin/brain-progression","bin/brain-prime"],
-    "description": "hexlet php-package",    
+    "description": "hexlet/code",    
     "authors": [
         {
             "name": "Dmitry Semenov",
@@ -11,11 +11,11 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/Games/Even.php",
-            "src/Games/Calc.php",
-            "src/Games/NOD.php",
-            "src/Games/Progression.php",
-            "src/Games/Prime.php",
+            "src/games/Even.php",
+            "src/games/Calc.php",
+            "src/games/NOD.php",
+            "src/games/Progression.php",
+            "src/games/Prime.php",
             "src/Engine.php"
         ]
     },
